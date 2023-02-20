@@ -1,13 +1,27 @@
+
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 8rem;
     overflow: hidden;
+    background-image: url('../../assets/images/header-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header_container {
+    margin-top: 5rem;
     text-align: center;
     height: 100%;
     position: relative;
+    display: grid;
+    grid-template-columns: 50% 55%;
+    gap: 15%;
+
+}
+
+.header_text {
+    margin-top: 3rem;
+
 }
 
 /* =========== CTA ========== */
@@ -35,6 +49,35 @@ header {
     height: 2rem;
     background: var(--color-primary);
 }
+
+/* =========== HEADER IMG ========== */
+
+.header_image {
+    margin-top: 0;
+    padding-bottom: 80rem;
+}
+
+
+.header_image .astronaut {
+    /* position: absolute; */
+    height: 500px;
+    width: 550px;
+    top: 1rem;
+    left: 45rem;
+    animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-30px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-30px);
+    }
+}
+
 
 /* =========== ME ========== */
 .me {
@@ -74,17 +117,46 @@ header {
     } */
 
     header {
-        height: 68vh;
+        height: 100vh;
     }
+
  }
 
   /* =================  MEDIA QUERIES (SMALL DEVICES) ================== */
   @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 100%;
     }
+
+    .header_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+        text-align: center;
+        
+    }
+
+    .header_text {
+        width: 55%;
+        /* padding-left: 0.5rem; */
+        padding: 1rem auto;
+        margin: 0 0.1rem 0.8rem 0.1rem;
+    }
+
+    .header_text p {
+        font-size: 60;
+    }
+    
+    .header_image {
+        width: 70%;
+        height: 70%;
+        padding: 0 0.1rem;
+        margin: 0 0.2rem 0.2rem 0.1rem;;
+        object-fit: cover;
+    }
+
 
     .header_socials, .scroll-down {
         display: none;
     }
+
 }
