@@ -2,10 +2,10 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME1 from '../../assets/images/me1_nobgcopy.png'
-import HeaderSocials from './HeaderSocials'
+// import ME1 from '../../assets/images/me1_nobgcopy.png'
+// import HeaderSocials from './HeaderSocials'
 import headerImg from '../../assets/images/header-img.png'
-import rainbow from '../../assets/images/header-rainbow.png'
+
 
 
 const Header = () => {
