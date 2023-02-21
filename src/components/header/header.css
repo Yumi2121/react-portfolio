@@ -24,6 +24,10 @@ header {
 
 }
 
+.header_container p {
+    color: var(--color-light);
+}
+
 /* =========== CTA ========== */
 .cta {
     margin-top: 2.5rem;
@@ -136,7 +140,7 @@ header {
     }
 
     .header_text {
-        width: 55%;
+        width: 75%;
         /* padding-left: 0.5rem; */
         padding: 1rem auto;
         margin: 0 0.1rem 0.8rem 0.1rem;

@@ -11,7 +11,7 @@ import rainbow from '../../assets/images/header-rainbow.png'
 const Header = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Fullstack Developer", "Web Developer", "UI/UX Designer"];
+  const toRotate = ["Full-Stack Developer", "Web Developer", "UI/UX Designer"];
   const [text, setText] = useState("");
   const [index, setIndex] = useState(1);
   const [delta, setDelta] = useState(300 - Math.random()*100);    
