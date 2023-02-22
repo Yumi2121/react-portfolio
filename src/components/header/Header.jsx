@@ -11,7 +11,7 @@ import headerImg from '../../assets/images/header-img.png'
 const Header = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Full-Stack Developer", "Web Developer", "UI/UX Designer"];
+  const toRotate = ["FullStack Developer", "Web Developer", "UI/UX Designer"];
   const [text, setText] = useState("");
   const [index, setIndex] = useState(1);
   const [delta, setDelta] = useState(300 - Math.random()*100);    
@@ -76,7 +76,7 @@ const Header = () => {
         <div className="header_text">
           <span className='tagline'>Welcome to Zumin Yu's portfolio</span>
           <h1>{`Hi I'm a `}<span className='wrap'>{text}</span></h1>
-          <p>I'm a highly motivated and eager Full- Stack Developer with a strong foundation in design. Looking for an opportunity to learn and grow in a dynamic, innovative environment.</p>
+          <p>I have a passion for building clean, efficient, and scalable software applications that solve real-world problems.</p>
           <CTA />
         </div>
 

@@ -130,24 +130,45 @@ header {
   @media screen and (max-width: 600px) {
     header {
         height: 100%;
+        padding-top: 0;
     }
 
     .header_container {
         grid-template-columns: 1fr;
         gap: 0;
-        text-align: center;
+        /* text-align: center; */
         
     }
 
     .header_text {
-        width: 75%;
+        width: 70%;
         /* padding-left: 0.5rem; */
-        padding: 1rem auto;
-        margin: 0 0.1rem 0.8rem 0.1rem;
+        /* padding: 1rem 2rem;
+        margin: 0 1rem 0.8rem 0.1rem; */
+        text-align: center;
     }
 
     .header_text p {
         font-size: 60;
+        /* margin-right: 1rem; */
+        margin: 0 1rem 0.8rem 0.1rem;
+        padding-right: 2rem;
+    }
+
+    .tagline {
+        margin: 1.5rem 0rem 1.5rem;
+        padding-right: 3rem;
+    }
+
+    .wrap {
+        text-align: center;
+        padding-right: 2rem;
+        margin-right: 2rem;
+        
+    }
+
+    .cta {
+        padding-right: 2rem;
     }
     
     .header_image {

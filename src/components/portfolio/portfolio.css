@@ -22,13 +22,34 @@
     overflow: hidden;
 }
 
+/* =========portfolio list ============ */
 .portfolio_item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1.2rem;
 }
 
+.portfolio_item p {
+    font-size: small;
+    margin: 0.5rem 0 0.8rem;
+    color: var(--color-light);
+}
+
+/* .project_content_list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+} */
+
+.project_list-icon {
+    color: var(--color-primary);
+    margin-top: 1rem;
+}
+
+
+/* ============= button ============= */
 .portfolio_item-cta {
     display: flex;
     gap: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
