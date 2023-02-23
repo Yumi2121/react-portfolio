@@ -3,12 +3,12 @@
     padding-bottom: 4rem;
 }
 
-.client_avatar {
-    width: 4rem;
-    aspect-ratio: 1/1;
+.hobby_avatar {
+    width: 70%;
+    /* aspect-ratio: 1/1; */
     overflow: hidden;
     /* below 2 - mkae the circle avatar */
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin:  0 auto 1rem;
     border: 0.4rem solid var(--color-primary-variant);
 }

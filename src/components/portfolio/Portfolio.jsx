@@ -14,7 +14,7 @@ const data = [
     point3: 'Created in JavaScript with MERN stack (MongoDB, EXpress.js, React.js and Node.js), testing with Jest Cypress and developed on AWS (EC2, Ubuntu, Nginx).',
     point2: "Application Features include user booking retrieve data through MongoDB, user login and authentication, locate car park's address using Google map API. ",       
     github: 'https://github.com/Yumi2121/EasyPark_App',
-    demo: 'http://www.ezcarparkspot.com/'
+    demo: 'http://www.ezcarparkspot.com'
   },
   {
     id: 2,
