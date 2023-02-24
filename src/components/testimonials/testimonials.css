@@ -1,6 +1,6 @@
 .container.testimonials_container {
     width: 40%;
-    padding-bottom: 4rem;
+    padding-bottom: 2.8rem;
 }
 
 .hobby_avatar {
@@ -16,7 +16,7 @@
 .testimonial {
     background: var(--color-bg-variant);
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 2rem;
     user-select: none;
 }
